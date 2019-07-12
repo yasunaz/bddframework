@@ -1,3 +1,5 @@
+@SmokeTest
+
 Feature: Go to yahoo japan website
   Description: The user can go to yahoo.co.jp website from their browser
 

@@ -9,10 +9,7 @@
     <artifactId>bddframework</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <!-- Project Dependencies -->
-
-    <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependencies>
        <!-- JUnit Testing Framework -->
         <dependency>
@@ -22,13 +19,11 @@
             <scope>test</scope>
         </dependency>
 
-
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.7.0</version>
         </dependency>
-
 
         <dependency>
             <groupId>info.cukes</groupId>

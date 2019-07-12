@@ -23,7 +23,7 @@ public class Steps {
 
     @When("^he types Yahoo Japan at google search enginess$")
     public void he_types_at_google_search_engine()  {
-        driver.findElement(By.name("q")).sendKeys("Yahoo Japan");
+        driver.findElement(By.name("q")).sendKeys("what is Smoke Test");
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
     }
 
@@ -32,4 +32,12 @@ public class Steps {
         driver.findElement(By.xpath("(//h3)[1]")).click();
     }
 
+    @When("^he types query at google search$")
+    public void he_types_query_at_google_search() throws Throwable {
+        driver.findElement(By.name("q")).sendKeys("what is Regression Test");
+        driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+    }
 }
+
+
+

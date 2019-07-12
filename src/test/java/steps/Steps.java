@@ -23,7 +23,8 @@ public class Steps {
 
     @When("^he types Yahoo Japan at google search enginess$")
     public void he_types_at_google_search_engine()  {
-        driver.findElement(By.name("q")).sendKeys("what is Smoke Test");
+        driver.findElement(By.name("q")).sendKeys("what is Functional Test");
+        pause();
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
     }
 
@@ -36,6 +37,14 @@ public class Steps {
     public void he_types_query_at_google_search() throws Throwable {
         driver.findElement(By.name("q")).sendKeys("what is Regression Test");
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+    }
+
+    public static void pause() {
+        try {
+            Thread.sleep(2000);
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
     }
 }
 

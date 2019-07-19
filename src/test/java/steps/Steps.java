@@ -26,6 +26,7 @@ public class Steps {
         driver.findElement(By.name("q")).sendKeys("what is Functional Test");
         pause();
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+        System.out.println("I AM THE MASTER COPY OF THIS TEST");
     }
 
     @Then("^he should be able to visit to yahoo japan website$")

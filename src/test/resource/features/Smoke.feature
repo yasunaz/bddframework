@@ -1,4 +1,7 @@
 @SmokeTest
+  @Regression
+  @System
+  @Fucntion
 
 Feature: Go to yahoo japan website
   Description: The user can go to yahoo.co.jp website from their browser
@@ -7,3 +10,4 @@ Feature: Go to yahoo japan website
     Given user opened google chrome browser
     When he types Yahoo Japan at google search enginess
     Then he should be able to visit to yahoo japan website
+

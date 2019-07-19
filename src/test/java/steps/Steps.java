@@ -27,6 +27,8 @@ public class Steps {
         pause();
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
         System.out.println("I AM THE MASTER COPY OF THIS TEST");
+        System.out.println("I HAVE ADDED 20 Test cases");
+
     }
 
     @Then("^he should be able to visit to yahoo japan website$")
